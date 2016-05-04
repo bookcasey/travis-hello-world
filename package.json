@@ -4,13 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5",
+    "url-pattern": "^1.0.1"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
   }
 }
