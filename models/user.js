@@ -1,5 +1,5 @@
 var User = function(name) {
-  this.glop = name;
+  this.name = name;
 };
 
 module.exports = User;
